@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.compilerSidebar.category.Notes": {
+    "message": "笔记",
+    "description": "The label for category Notes in sidebar compilerSidebar"
+  },
+  "sidebar.compilerSidebar.category.Jotang2025_8": {
+    "message": "Jotang2025_8",
+    "description": "The label for category Jotang2025_8 in sidebar compilerSidebar"
+  },
+  "sidebar.compilerSidebar.category.Class": {
+    "message": "课堂",
+    "description": "The label for category Class in sidebar compilerSidebar"
+  }
+}

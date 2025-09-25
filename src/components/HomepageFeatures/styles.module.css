@@ -1,0 +1,14 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureImg {
+  width: 200px;       /* 或者你希望的小一点的值 */
+  height: auto;      /* 保持比例 */
+  /* 以下可选，居中图片等 */
+  margin: 0 auto;
+  display: block;
+}

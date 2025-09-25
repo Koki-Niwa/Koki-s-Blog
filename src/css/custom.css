@@ -1,0 +1,112 @@
+:root {
+  --ifm-color-primary: #2E8B57; /* Sea Green for the primary color */
+  --ifm-color-primary-dark: #26734A; /* 手动计算更深的绿色 */
+  --ifm-color-primary-darker: #205E3E;
+  --ifm-color-primary-darkest: #1A4931;
+  --ifm-color-primary-light: #2d8153; 
+  --ifm-color-primary-lighter: #267953; 
+  --ifm-color-primary-lightest: #377661; 
+
+  /* 其他非颜色相关的变量保持不变 */
+  --ifm-container-width-xl: 1200px;
+  --ifm-list-left-padding: 24px;
+  --ifm-code-font-size: 95%;
+  --ifm-footer-background-color: #fff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --yakit-header-color: #31343f;
+  --yakit-border-color: #eaecf3;
+  --yakit-disable-text-color: #ccd2de;
+  --yakit-background-color: #f0f1f3;
+  --yakit-helper-text-color: #b4bbca;
+  --yakit-card-background-color: #f8f8f8;
+  --yakit-body-text-color: #85899e;
+
+  --yakit-primary-1: #f6f0ff;
+  --yakit-primary-2: #ebe0ff;
+  --yakit-primary-3: #ceb8ff;
+  --yakit-primary-4: #af8fff;
+  --yakit-primary-5: #8862f8;
+  --yakit-primary-6: #6749d1;
+
+  --navbar-link-active-bg: var(--ifm-color-primary);
+  --navbar-link-hover-bg: var(--ifm-color-primary-light);
+}
+
+.navbar {
+  min-height: 70px; /* 可选：让导航栏整体更高 */
+}
+
+.navbar__brand .navbar__item {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo {
+  height: 54px; /* 更大一些 */
+}
+
+.navbar__title {
+  font-size: 20px; /* 标题文字同步放大 */
+  font-weight: 600;
+  margin-left: 8px; /* 与 Logo 保持间距 */
+}
+
+.navbar__items .navbar__link {
+  padding: 10px 16px;
+  margin: 0 6px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.navbar__items .navbar__link::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.navbar__items .navbar__link--active {
+  background-color: var(--navbar-link-active-bg);
+  color: white;
+  font-weight: 600;
+}
+
+.navbar__items .navbar__link--active::before {
+  opacity: 1;
+}
+
+.navbar__items .navbar__link:hover {
+  background-color: var(--navbar-link-hover-bg);
+  color: white;
+  transform: translateY(-1px);
+}
+
+.navbar__items .navbar__link:active {
+  transform: translateY(1px);
+}
+
+[data-theme="dark"] {
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px rgba(193, 193, 193);
+  background: #c1c1c1;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}

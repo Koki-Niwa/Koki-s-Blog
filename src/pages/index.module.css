@@ -1,0 +1,67 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 13rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* ============ 第一个按钮：悬停上浮 ============ */
+.buttons .button--secondary {
+  transition: transform 0.1s ease, background 0.2s ease;
+}
+
+.buttons .button--secondary:hover {
+  transform: translateY(-1px);
+}
+
+.buttons .button--secondary:active {
+  transform: translateY(0);
+}
+
+/* ============ 第二个按钮：透明 + 白边框 + 动画箭头 ============ */
+.outlineButton {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  box-shadow: none;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.outlineButton:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-1px);
+}
+
+.outlineButton:active {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(0);
+}
+
+.arrow {
+  display: inline-block;
+  margin-left: 0.3rem;
+  transition: transform 0.2s ease;
+}
+
+.outlineButton:hover .arrow {
+  transform: translateX(3px);
+}

@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Koki",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Intro": {
+    "message": "简介",
+    "description": "Navbar item with label Intro"
+  },
+  "item.label.Compiler": {
+    "message": "编译器",
+    "description": "Navbar item with label Compiler"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
