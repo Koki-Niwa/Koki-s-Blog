@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktest=self.webpackChunktest||[]).push([[586],{5494:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/Koki-s-Blog/zh-CN/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

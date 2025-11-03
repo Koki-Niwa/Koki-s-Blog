@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-site.example.com/zh-CN/blog</id>
+    <id>https://Koki-Niwa.github.io/Koki-s-Blog/zh-CN/blog</id>
     <title>Koki's Blog Blog</title>
     <updated>2025-09-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://your-docusaurus-site.example.com/zh-CN/blog"/>
+    <link rel="alternate" href="https://Koki-Niwa.github.io/Koki-s-Blog/zh-CN/blog"/>
     <subtitle>Koki's Blog Blog</subtitle>
-    <icon>https://your-docusaurus-site.example.com/zh-CN/img/logo2.png</icon>
+    <icon>https://Koki-Niwa.github.io/Koki-s-Blog/zh-CN/img/logo2.png</icon>
     <entry>
         <title type="html"><![CDATA[我的第一篇博客]]></title>
-        <id>https://your-docusaurus-site.example.com/zh-CN/blog/my-first-blog</id>
-        <link href="https://your-docusaurus-site.example.com/zh-CN/blog/my-first-blog"/>
+        <id>https://Koki-Niwa.github.io/Koki-s-Blog/zh-CN/blog/my-first-blog</id>
+        <link href="https://Koki-Niwa.github.io/Koki-s-Blog/zh-CN/blog/my-first-blog"/>
         <updated>2025-09-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Hello! 这是我在这个网站写的第一篇博客，以后可能会在这里分享一些学习日常。]]></summary>
         <content type="html"><![CDATA[<p>Hello! 这是我在这个网站写的第一篇博客，以后可能会在这里分享一些学习日常。</p>]]></content>
