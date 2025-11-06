@@ -12,7 +12,7 @@ const config = {
   },
 
   url: "https://Koki-Niwa.github.io",
-  baseUrl: "/Koki-s-Blog/",
+  baseUrl: "/",
   organizationName: "Koki-Niwa",
   projectName: "Koki-s-Blog",
 
